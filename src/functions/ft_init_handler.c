@@ -28,8 +28,8 @@ static void	ft_init(t_handler *hndlr)
 	hndlr['u'] = &ft_unsigned_handle;
 	hndlr['x'] = &ft_hex_handle;
 	hndlr['X'] = &ft_hex_handle;
-	hndlr['c'] = &ft_char_handle;
-	hndlr['C'] = &ft_wchar_handle;
+	hndlr['C'] = &ft_char_handle;
+	hndlr['c'] = &ft_wchar_handle;
 	hndlr['b'] = &ft_bin_handle;
 	hndlr['n'] = &ft_chrwrite_handle;
 }
