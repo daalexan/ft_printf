@@ -24,7 +24,6 @@ ssize_t	ft_wchar_handle(char **format, va_list *arg, t_arg *blanck)
 
 	(void)format;
 	wchr = (wchar_t)va_arg(*arg, wint_t);
-	printf("My uni %d", (int)wchr);
 	if (wchr <= 0x7F)
 		wchr_len = 1;
 	else if (wchr <= 0x7FF)
